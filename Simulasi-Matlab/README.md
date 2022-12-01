@@ -18,26 +18,18 @@ Setelah mengklarifikasi data yang relevan, hasil akhir dapat diperoleh melalui s
 Menentukan presisi. Dalam simulasi ditetapkan bahwa jarak antara kendaraan dengan titik target pada task 1 tidak melebihi 0,01𝑚, dan deviasi antara arah kendaraan dengan target pada task 2 tidak melebihi
 0,001rad, akurasinya relatif tinggi, tetapi waktunya akan relatif lebih lama.
 
-************
+https://github.com/aos92/Mobil-Roda-Dua/blob/main/Simulasi-Matlab/Figure_6.png
 Gbr.6 (Lintasan) Jalur mobil yang bergerak ditunjukkan pada Gbr.6. Titik biru adalah titik awal, titik merah adalah titik target, dan lintasan terdiri dari titik-titik diskrit dan garis penghubung antar titik.
 
-************
-************
+https://github.com/aos92/Mobil-Roda-Dua/blob/main/Simulasi-Matlab/Figure_7a.png
+https://github.com/aos92/Mobil-Roda-Dua/blob/main/Simulasi-Matlab/Figure_7b.png
 Gbr.7a (Gambaran v dan ω terhadap t pada bagian pertama) dan Gbr.7b (Gambar v dan ω terhadap t pada bagian kedua) masing-masing menunjukkan kecepatan perjalanan dan kecepatan sudut dari dua bagian mobil melalui titik-titik diskrit, di mana dapat dilihat dengan jelas bahwa deviasi cenderung
 Dalam proses zeroing, batas kecepatan yang dibutuhkan dalam dokumen pekerjaan besar juga tercermin secara tidak langsung.
 
-************
+https://github.com/aos92/Mobil-Roda-Dua/blob/main/Simulasi-Matlab/Figure_8a.png
 Gbr.8a (Grafik θ terhadap t)  menunjukkan orientasi mobil, terlihat setelah kontrol dibagi menjadi dua bagian, dan setelah bagian kedua dikontrol, jarak terakhir antara mobil dan sumbu X
 Sudut yang disertakan adalah 0,78611rad, yaitu 𝜋/4.
 
-************
+https://github.com/aos92/Mobil-Roda-Dua/blob/main/Simulasi-Matlab/Figure_8b.png
 Gbr.8b (Gambaran Vl, Vr terhadap t) menunjukkan kecepatan linier roda kiri dan kanan mobil. Terlihat dari gambar bahwa terdapat tanda-tanda batas kecepatan yang jelas, dan kontrol bagian pertama dan bagian kedua
 Selama proses berlangsung, kecepatan linier roda kiri dan kanan dibatasi secara efektif dalam jangkauan.
-
-************
-************
-Gbr.9a (Lintasan setelah mengubah posisi target) dan Gbr.9b (Arah sudut θ setelah mengubah posisi target) membuktikan universalitas metode ini, yaitu mobil dapat pergi dari titik mana pun ke titik mana pun dan menghadap ke arah target mana pun.
-
-Kesimpulan dari simulasi mobil roda dua berdasarkan kontrol algoritma PID yang dirancang ini memenuhi persyaratan yang sesuai dengan membagi tugas menjadi dua bagian, dan mewujudkan operasi skala besar dengan lebih baik. Sasaran, kinerja pengontrol juga sangat baik, keseluruhan sistem juga memiliki tingkat universalitas tertentu, dapat beroperasi di berbagai lingkungan. Tapi penyelesaian tugas bukanlah
-Metode yang diusulkan dalam hal apapun bahwa ini memang yang terbaik.Metode ini masih memiliki ruang untuk perbaikan.Misalnya, algoritma PID diskrit inkremental dapat digunakan sebagai pengganti algoritma PID diskrit posisional.
-sehingga pada integral link tidak lagi muncul fenomena kejenuhan integral. Masih banyak aspek lain yang bisa diperbaiki, dan saya belum mendalaminya satu per satu.
