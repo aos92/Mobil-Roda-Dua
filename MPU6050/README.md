@@ -23,5 +23,6 @@ https://github.com/aos92/Mobil-Roda-Dua/blob/main/MPU6050/latest-code.png
 If after this last check the result is zero then these values must be used in your sketch, to compensate for errors.
 
 https://github.com/aos92/Mobil-Roda-Dua/blob/main/MPU6050/new-values.png
+
 Link detail:
 https://microcontrolere.wordpress.com/2021/06/06/how-to-calibrate-the-mpu6050-sensor/
